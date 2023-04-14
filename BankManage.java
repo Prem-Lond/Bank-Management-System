@@ -70,10 +70,11 @@ try{
 
                         System.out.println("Enter Account Balance to Created new Account :");
                         System.out.println("Note Minimum Balance is require 500$");
-int bb=499;
+                    
+                        int Minimum_deposite=499;
                         New_account_balance = sc.nextDouble();
 
-                        if (New_account_balance > bb) {
+                        if (New_account_balance > Minimum_deposite) {
                             arr_obj[New_account_Number].deposite_amount(New_account_balance);
                             System.out.println("Deposite Balance is Successfully " + New_account_balance);
 
